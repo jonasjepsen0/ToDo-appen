@@ -1,4 +1,4 @@
-import { Todo } from "../models/todo"
+import { Todo } from "../models/todo.ts"
 
 const STORAGE_KEY = "todos"
 

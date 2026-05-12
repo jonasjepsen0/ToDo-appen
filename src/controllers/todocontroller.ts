@@ -1,9 +1,9 @@
-import { createTodo, Todo } from "../models/todo"
-import { Div } from "../view/atoms/atoms"
-import { todoForm } from "../view/molecules/todoForm"
-import { todoList } from "../view/organisms/todoList"
-import { render } from "../utils/dom"
-import { loadTodos, saveTodos } from "../utils/storage"
+import { createTodo, Todo } from "../models/todo.ts"
+import { Div } from "../view/atoms/atoms.ts"
+import { todoForm } from "../view/molecules/todoform.ts"
+import { todoList } from "../view/organisms/todolist.ts"
+import { render } from "../utils/dom.ts"
+import { loadTodos, saveTodos } from "../utils/storage.ts"
 
 export const todoController = () => {
     let todos: Todo[] = loadTodos()

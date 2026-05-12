@@ -1,5 +1,5 @@
-import { Todo } from "../../models/todo"
-import { Button, Checkbox, Div, Paragraph } from "../atoms/atoms"
+import { Todo } from "../../models/todo.ts"
+import { Button, Checkbox, Div, Paragraph } from "../atoms/atoms.ts"
 
 export const todoItem = (
     todo: Todo,

@@ -1,4 +1,4 @@
-import { Button, Div, Input } from "../atoms/atoms"
+import { Button, Div, Input } from "../atoms/atoms.ts"
 
 export const todoForm = (onAdd: (text: string) => void) => {
     const container = Div("flex gap-2 mb-4")

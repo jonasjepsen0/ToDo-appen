@@ -1,6 +1,6 @@
-import { Todo } from "../../models/todo"
-import { Div } from "../atoms/atoms"
-import { todoItem } from "../molecules/todoItem"
+import { Todo } from "../../models/todo.ts"
+import { Div } from "../atoms/atoms.ts"
+import { todoItem } from "../molecules/todoitem.ts"
 
 export const todoList = (
     todos: Todo[],
