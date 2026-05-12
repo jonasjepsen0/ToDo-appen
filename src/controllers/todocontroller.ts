@@ -3,11 +3,14 @@ import { Div } from "../view/atoms/atoms"
 import { todoForm } from "../view/molecules/todoForm"
 import { todoList } from "../view/organisms/todoList"
 import { render } from "../utils/dom"
+import { loadTodos, saveTodos } from "../utils/storage"
 
 export const todoController = () => {
-    let todos: Todo[] = []
+    let todos: Todo[] = loadTodos()
 
     const draw = () => {
+        saveTodos(todos)
+
         const root = Div()
         root.append(todoForm(addTodo))
         root.append(todoList(todos, toggleTodo, deleteTodo))
