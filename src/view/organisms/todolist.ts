@@ -7,7 +7,7 @@ export const todoList = (
     onToggle: (id: string) => void,
     onDelete: (id: string) => void,
 ) => {
-    const container = Div("todo-list")
+    const container = Div("flex flex-col gap-2")
 
     todos.forEach(todo => {
         container.append(todoItem(todo, onToggle, onDelete))

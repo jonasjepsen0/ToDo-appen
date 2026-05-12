@@ -1,4 +1,4 @@
-
+import tailwindcss from "@tailwindcss/vite"
 
 export const Div = (className = "") => {
     const element = document.createElement("div")

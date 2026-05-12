@@ -11,7 +11,7 @@ export const todoController = () => {
     const draw = () => {
         saveTodos(todos)
 
-        const root = Div()
+        const root = Div("max-w-md mx-auto p-6 bg-white rounded-lg shadow-md")
         root.append(todoForm(addTodo))
         root.append(todoList(todos, toggleTodo, deleteTodo))
         render("app", root, true)
