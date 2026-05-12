@@ -1,0 +1,26 @@
+{
+  "name": "todo-appen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasjepsen0/ToDo-appen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonasjepsen0/ToDo-appen/issues"
+  },
+  "homepage": "https://github.com/jonasjepsen0/ToDo-appen#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12"
+  }
+}
