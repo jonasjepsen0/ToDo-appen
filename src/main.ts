@@ -1,7 +1,3 @@
-import { H1 } from "./view/atoms/atoms"
-import { render } from "./utils/dom"
+import { todoController } from "./controllers/todocontroller.ts"
 
-const title = H1()
-title.textContent = "My Todo App"
-
-render("app", title)
+todoController()

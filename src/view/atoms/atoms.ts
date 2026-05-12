@@ -23,3 +23,16 @@ export const Paragraph = (className = "") => {
     element.className = className
     return element
 }
+
+export const Input = (className = "") => {
+    const element = document.createElement("input")
+    element.className = className
+    return element
+}
+
+export const Checkbox = (className = "") => {
+    const element = document.createElement("input")
+    element.type = "checkbox"
+    element.className = className
+    return element
+}
